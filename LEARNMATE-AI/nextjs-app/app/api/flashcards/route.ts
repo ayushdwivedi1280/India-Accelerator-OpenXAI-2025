@@ -21,6 +21,7 @@ export async function POST(req: NextRequest) {
   ]
 }
 
+
 Focus on key concepts, definitions, and important facts. Make questions clear and answers concise.
 
 Notes: ${notes}`
@@ -31,7 +32,7 @@ Notes: ${notes}`
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        model: 'llama3.2:1b',
+        model: 'llama3:latest',
         prompt: prompt,
         stream: false,
       }),
