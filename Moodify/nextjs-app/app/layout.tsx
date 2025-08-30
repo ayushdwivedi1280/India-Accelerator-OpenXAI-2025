@@ -5,8 +5,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Social Network AI - Social Media Tools',
-  description: 'AI-powered social media tools: Caption Generator, Mood Checker, and Hashtag Suggestor',
+  title: 'Moodify - Your Virtual Friend',
+  description: 'AI-powered virtual friend that listens to your situation and provides suggestions, solutions, and empathy',
 }
 
 export default function RootLayout({
@@ -19,4 +19,4 @@ export default function RootLayout({
       <body className={inter.className}>{children}</body>
     </html>
   )
-} 
+}
